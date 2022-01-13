@@ -1,7 +1,15 @@
 {
-  "name": "templatematheusdefault",
+  "name": "@react-native/expo-template-matheus-default",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "description": "Template padrão com arquitetura de pastas, arquivos e configurações escaláveis e de entendimento fácil.",
+  "keywords": ["Template Matheus Padrão", "Template Matheus", "Expo Template Matheus"],
+  "homepage": "https://github.com/matheusalvesdev/Expo-Template",
+  "author": {
+    "name": "Matheus Henrique Alves",
+    "email": "matheushalves0@gmail.com",
+    "url": "https://www.linkedin.com/in/matheusalvesdev/"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,15 +18,22 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "ansi-regex": "5.0.1",
+    "axios": "^0.24.0",
     "expo": "~44.0.0",
+    "expo-constants": "~13.0.0",
+    "expo-font": "~10.0.4",
     "expo-status-bar": "~1.2.0",
+    "node-fetch": "2.6.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-web": "0.17.1",
+    "react-navigation": "^4.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
-  "private": true
+  "private": false
 }
