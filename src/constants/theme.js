@@ -5,6 +5,8 @@ const { width, height } = Dimensions.get('window');
 // Cores usadas no aplicativo
 export const COLORS = {
     primary: '#417D9A',
+    transparent: 'transparent',
+    white: '#FFF'
 };
 
 // Tamanhos usados no aplicativo
@@ -50,6 +52,4 @@ export const FONTS = {
     body5: { fontFamily: 'Roboto-Regular', fontSize: SIZES.body5, lineHeight: 22 },
 };
 
-const appTheme = { COLORS, SIZES, FONTS };
-
-export default appTheme;
+export default { COLORS, SIZES, FONTS };
